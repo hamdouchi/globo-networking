@@ -19,7 +19,7 @@ locals {
   common_tags = {
     Environment = var.environment
     billingCode = var.billing_code
-    workspace = terraform.workspace
+    workspace   = terraform.workspace
   }
 }
 
